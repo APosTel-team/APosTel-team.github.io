@@ -1,3 +1,7 @@
 theme: jekyll-theme-slate
 relative_links:
   enabled: true
+include:
+  - README.md
+  - read_in_fathom_csv.py
+  - convert_vrl_csv.R
