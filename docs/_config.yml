@@ -1,0 +1,8 @@
+title: APosTeL
+description: Acoustic Positioning Telemetry
+show_downloads: false
+google_analytics: false
+
+
+gems:
+- jekyll-seo-tag
