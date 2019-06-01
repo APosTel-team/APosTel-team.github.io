@@ -3,7 +3,6 @@ title: Software Tools
 layout: default
 nav: true
 order: 2
-permalink: /softwaretools
 ---
 
 ## R

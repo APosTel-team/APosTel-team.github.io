@@ -28,7 +28,6 @@ title: Software Tools
 layout: default
 nav: true
 order: 2
-permalink: /softwaretools
 ---
 ```
 
@@ -37,8 +36,6 @@ permalink: /softwaretools
 - `nav:`  When `true`, this will allow the page to be listed in the navagation bar.
 Set to `false` to hide it from there.
 - `order:` Controls the location of this pages label in the navataion side bar.
-- `permalink:` By default, the url of the page will be the site name followed by the mardown file's name.
-You can use this option to define a custom url for the page.
 
 ## License
 

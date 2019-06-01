@@ -3,7 +3,6 @@ title: home
 layout: default
 nav: false
 order: 1
-permalink: /
 ---
 
 ## From preprocessing to positioning
