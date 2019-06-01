@@ -39,4 +39,4 @@ Set to `false` to hide it from there.
 
 ## License
 
-This website is a modified version of the (jekyll-theme-slate)[https://github.com/pages-themes/slate] which was distributed under the *Creative Commons Zero v1.0 Universal* license.
+This website is a modified version of the [jekyll-theme-slate](https://github.com/pages-themes/slate) which was distributed under the *Creative Commons Zero v1.0 Universal* license.
