@@ -27,7 +27,6 @@ Lets walk through this example YAML header:
 title: Software Tools
 layout: default
 nav: true
-order: 2
 ---
 ```
 
@@ -35,7 +34,6 @@ order: 2
 - `layout:`  This should always be set to `default`, as we have only impmemented 1 style of layout.
 - `nav:`  When `true`, this will allow the page to be listed in the navagation bar.
 Set to `false` to hide it from there.
-- `order:` Controls the location of this pages label in the navataion side bar.
 
 ## License
 
