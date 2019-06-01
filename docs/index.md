@@ -2,7 +2,6 @@
 title: home
 layout: default
 nav: false
-order: 1
 ---
 
 ## From preprocessing to positioning

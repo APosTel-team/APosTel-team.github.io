@@ -38,10 +38,10 @@
                 <div class="navbar">
                     <aside>
                         <ul>
-                            <li><a href="/">Home</a></li>
-                            {% for page in site.pages | sort: 'order'  %}
+                            <li><a href="{{site.baseurl}}/">Home</a></li>
+                            {% for page in site.pages %}
                               {% if page.nav == true %}
-                                  <li><a href="{{site.baseurl}}{{page.url}}">{{ page.title }}</a></li>
+                                  <li><a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a></li>
                               {% endif %}
                             {% endfor %}
                         </ul>

@@ -3,5 +3,7 @@ description: Acoustic Positioning Telemetry
 show_downloads: false
 google_analytics: false
 
+baseurl: /project-name
+
 gems:
 - jekyll-seo-tag
