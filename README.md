@@ -31,7 +31,7 @@ nav: true
 ```
 
 - `title:` Will be used as the display name in the navagation side bar.
-- `layout:`  This should always be set to `default`, as we have only impmemented 1 style of layout.
+- `layout:`  This should always be set to `default`, as we have only implemented 1 style of layout.
 - `nav:`  When `true`, this will allow the page to be listed in the navagation bar.
 Set to `false` to hide it from there.
 
