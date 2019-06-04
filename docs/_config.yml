@@ -1,0 +1,9 @@
+title: APosTeL
+description: Acoustic Positioning Telemetry
+show_downloads: false
+google_analytics: false
+
+baseurl: /APosTel-team.github.io
+
+gems:
+- jekyll-seo-tag
