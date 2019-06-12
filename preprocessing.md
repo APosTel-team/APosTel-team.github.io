@@ -1,12 +1,12 @@
 ---
-title: preprocessing
+title: Preprocessing
 layout: default
 nav: true
 ---
 
-### Preprocessing
+# Preprocessing
 
-####	Vemco
+###	Vemco
 Vemco receivers operate autonomously, hence the receiver clocks drift independently from each other. Therefore, the signals from the different receivers need to be mutually synchronised before use for positioning. Although this drift is not linear, it helps to first do a **linear time correction** on each receiver. To do so, compare the receiver clock at read-out with the computer clock and apply a correction function to the receiver clock. This correction can also be done in the VUE or FATHOM software that comes with Vemco hardware:
 - VUE software: load the vrl files, go to 'file', 'tools' and check 'autocorrect'.
 - FATHOM software: see below.
@@ -20,16 +20,16 @@ At this point, you are ready for **synchronisation**. More information and code 
 - [here](https://github.com/elipickh/ReceiverArrays) for R
 
 
-#### Lotek
+### Lotek
 *Input needed on preprocessing Lotek data!*
 
 When you have linearly time corrected data with millisecond time precision, you are ready for **synchronisation**. More information and code can be found:
 - [here](https://github.com/JennaVergeynst/time_synchronization) for python
 - [here](https://github.com/elipickh/ReceiverArrays) for R
 
-#### HTI
+### HTI
 *Input needed!*
 
-#### Thelma
+### Thelma
 *Input needed!*
 
