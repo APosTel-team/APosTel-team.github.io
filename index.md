@@ -1,7 +1,7 @@
 ---
 title: home
 layout: default
-nav: true
+nav: false
 ---
 
 ## From preprocessing to positioning
@@ -10,3 +10,8 @@ This website is intended to give an overview on available open-source code for a
 
 The different acoustic telemetry systems available all come with specific issues and challenges related to converting the raw data in a usable format for performing positioning algorithms. Therefore, we try to provide some needed procedures and advice for each system. Once the data are preprocessed and timesynchronised, the data preparation and actual positioning is (hopefully) generic.
 
+[Preprocessing]()
+
+Data preparation
+
+Positioning
