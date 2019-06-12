@@ -5,7 +5,7 @@ nav: true
 order: 3
 ---
 
-# Positioning
+## Positioning
 
 Traditionally, positioning is based on the time difference of arrival (TDOA) method, using hyperbolic triangulation. *Code reference coming soon!*
 

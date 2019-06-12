@@ -5,7 +5,7 @@ nav: true
 order: 1
 ---
 
-# Preprocessing
+## Preprocessing
 
 ###	Vemco
 Vemco receivers operate autonomously, hence the receiver clocks drift independently from each other. Therefore, the signals from the different receivers need to be mutually synchronised before use for positioning. Although this drift is not linear, it helps to first do a **linear time correction** on each receiver. To do so, compare the receiver clock at read-out with the computer clock and apply a correction function to the receiver clock. This correction can also be done in the VUE or FATHOM software that comes with Vemco hardware:
