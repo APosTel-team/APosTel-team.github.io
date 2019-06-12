@@ -2,6 +2,7 @@
 title: Software Tools
 layout: default
 nav: true
+order: 4
 ---
 
 ## R

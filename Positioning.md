@@ -2,6 +2,7 @@
 title: Positioning
 layout: default
 nav: true
+order: 3
 ---
 
 # Positioning

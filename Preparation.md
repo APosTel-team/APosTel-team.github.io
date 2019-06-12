@@ -2,6 +2,7 @@
 title: Data preparation
 layout: default
 nav: true
+order: 2
 ---
 
 # Data preparation for positioning
