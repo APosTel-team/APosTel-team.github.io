@@ -16,7 +16,7 @@ To change the title or subtitle, you can change values for the appropriate tags 
 ### Adding a new page
 
 To make a new page, simply make a new markdown file in the `docs` folder.
-Any new pages will be automatically added to the navagation bar.
+Any new pages will be automatically added to the navigation bar.
 You can write github-flavored markdown including code blocks with syntax highlighting.
 The only special consideration for these markdown files are the YAML headers which have jekyll specific tags.
 
