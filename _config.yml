@@ -7,8 +7,3 @@ baseurl: /APosTel-team.github.io
 
 gems:
 - jekyll-seo-tag
-
-include:
-  - index.md
-  - Software.md
-  - preprocessing.md
