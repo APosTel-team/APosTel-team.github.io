@@ -1,7 +1,7 @@
 ---
 title: Positioning
 layout: default
-nav: false
+nav: true
 ---
 
 # Positioning
