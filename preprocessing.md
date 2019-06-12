@@ -1,7 +1,7 @@
 ---
 title: preprocessing
 layout: default
-nav: false
+nav: true
 ---
 
 ### Preprocessing
