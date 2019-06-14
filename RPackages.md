@@ -1,11 +1,11 @@
 ---
-title: Software Tools
+title: R packages
 layout: default
 nav: true
 order: 4
 ---
 
-## R
+## R packages
 
 ### [MarTel](https://gitlab.com/RTbecard/toal) (Marine Telemetry)
 
@@ -29,6 +29,3 @@ install_git(url = "https://gitlab.com/RTbecard/toal", build_vignettes = T)
 ## Disable build_vignettes if your installation runs into errors 
 ```
 
-## Python
-
-> Possibility to have PIP or conda packages listed here?  -James
