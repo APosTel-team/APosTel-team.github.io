@@ -29,7 +29,7 @@ When you have linearly time corrected data with millisecond time precision, you 
 - [here](https://github.com/elipickh/ReceiverArrays) for R
 
 ### HTI
-*Input needed!*
+The R package [MarTel](https://gitlab.com/RTbecard/toal) contains tools for reading HTI `.RAT` files and cleaning false detections (see also [R packages]()).
 
 ### Thelma
 *Input needed!*
