@@ -12,9 +12,9 @@ Vemco receivers operate autonomously, hence the receiver clocks drift independen
 - VUE software: load the vrl files, go to 'file', 'tools' and check 'autocorrect'.
 - FATHOM software: see below.
 
-For synchronisation and positioning, date/time data with **millisecond precision** is required. By default, the date/times in the csv files with signals for each receiver are only precise up to seconds. To obtain millisecond time precision, you need to do the following:
-- VUE software: load the vrl files, go to 'export' and check 'millisecond time precision', export each file as csv.
-- FATHOM software: run [this](https://github.com/APosTel-team/APosTel-team.github.io/blob/master/convert_vrl_csv.R) R script with the options to obtain linear time correction and to add millisecond precision on a batch of files. The result is a quite complicated csv file for each receiver, not directly readable by any csv reader. [This](https://github.com/APosTel-team/APosTel-team.github.io/blob/master/readin_fathom_csv.py)  python function extracts the required detection information from the file.
+For synchronisation and positioning, date/time data with **milli- or microsecond precision** is required. By default, the date/times in the csv files with signals for each receiver are only precise up to seconds. To obtain higher time precision, you need to do the following:
+- VUE software: load the vrl files, go to 'export' and check 'millisecond time precision', export each file as csv. Note that this only gets you **milli**second precision! It is therefore recommended to use the other software and obtain microsecond precision.
+- FATHOM software: run [this](https://github.com/APosTel-team/APosTel-team.github.io/blob/master/convert_vrl_csv.R) R script with the options to obtain linear time correction and to add **micro**second precision on a batch of files. The result is a quite complicated csv file for each receiver, not directly readable by any csv reader. [This](https://github.com/APosTel-team/APosTel-team.github.io/blob/master/readin_fathom_csv.py)  python function extracts the required detection information from the file.
 
 At this point, you are ready for **synchronisation**. More information and code can be found:
 - [here](https://github.com/JennaVergeynst/time_synchronization) for python
@@ -24,7 +24,7 @@ At this point, you are ready for **synchronisation**. More information and code 
 ### Lotek
 *Input needed on preprocessing Lotek data!*
 
-When you have linearly time corrected data with millisecond time precision, you are ready for **synchronisation**. More information and code can be found:
+When you have linearly time corrected data with microsecond time precision, you are ready for **synchronisation**. More information and code can be found:
 - [here](https://github.com/JennaVergeynst/time_synchronization) for python
 - [here](https://github.com/elipickh/ReceiverArrays) for R
 
